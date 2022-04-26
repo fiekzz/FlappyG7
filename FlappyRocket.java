@@ -41,7 +41,13 @@ public class FlappyRocket extends Actor
             Greenfoot.setWorld(new iiumWallpaper());
             Greenfoot.stop();
         }
-        
+
+        if(isTouching(Planets.class))
+        {
+            System.out.println("Game over!");
+            System.out.println("Collision occured!");
+            Greenfoot.stop();
+        }
 
          
     }

@@ -8,7 +8,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class iiumWallpaper extends World
 {
-
+    public int score = 0;
     private GreenfootImage bg;
     
     public iiumWallpaper()
@@ -27,6 +27,16 @@ public class iiumWallpaper extends World
         int initial_location = 600;
         spawnDistraction(initial_location);
 
+    }
+
+    public int displayScore()
+    {
+        return score;
+    }
+
+    public int updateScore()
+    {
+        return score++;
     }
     
     
@@ -67,6 +77,7 @@ public class iiumWallpaper extends World
         Planets planet = new Planets(asset,yLocation,size);
         addObject(planet, initial_location + randomX, randomY);
 
+        System.out.println("Current score: " + displayScore());
     }
 
     public int getRandomNumber(int maxSize, int minSize) {

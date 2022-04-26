@@ -11,7 +11,7 @@ public class Planets extends Actor
     private int yLocation;
     private int size;
     private String asset;
-    private final int xVelocity = 2;
+    private int xVelocity = 2;
     
     public Planets(String asset, int yLocation, int size)
     {   
@@ -31,6 +31,7 @@ public class Planets extends Actor
         setLocation(currentX, yLocation);
 
         if(currentX <= 0 && getWorld() != null) {
+            ((iiumWallpaper)getWorld()).updateScore();
             getWorld().removeObject(getWorld().getObjects(Planets.class).get(0));
         }
 
