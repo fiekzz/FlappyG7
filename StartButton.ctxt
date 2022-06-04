@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=StartButton
+comment1.params=link\ theme
+comment1.target=StartButton(greenfoot.World,\ greenfoot.GreenfootSound)
+comment2.params=
+comment2.target=void\ act()
+numComments=3

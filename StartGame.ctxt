@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=StartGame
+comment1.params=
+comment1.target=StartGame()
+comment2.params=initialLocationX
+comment2.target=void\ spawnEntity(int)
+comment3.params=max\ min
+comment3.target=int\ getRandomNumber(int,\ int)
+numComments=4

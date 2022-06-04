@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=entity
+comment1.params=fileLocation\ size
+comment1.target=entity(java.lang.String,\ int)
+comment2.params=
+comment2.target=void\ act()
+comment3.params=
+comment3.target=void\ spawnNew()
+numComments=4

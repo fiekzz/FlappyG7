@@ -8,5 +8,6 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="Greenfoot" level="application" />
+    <orderEntry type="library" name="javafx-sdk-18.0" level="project" />
   </component>
 </module>
