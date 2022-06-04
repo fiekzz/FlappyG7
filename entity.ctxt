@@ -1,5 +1,6 @@
 #BlueJ class context
 comment0.target=entity
+comment0.text=\r\n\ Entity\ class\r\n\ Create\ entity\ to\ distract\ the\ rocket\r\n\ Add\ up\ the\ score\ when\ rocket\ has\ passed\r\n\ \r\n\ @author\ github.com/fiekzz\r\n\ @version\ 4\ June\ 2022\r\n
 comment1.params=fileLocation\ size
 comment1.target=entity(java.lang.String,\ int)
 comment2.params=

@@ -1,20 +1,20 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class ShowScore here.
+ * Score displayer when the game is still running
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author github.com/fiekzz
+ * @version 4 June 2022
  */
 public class ShowScore extends Actor
 {
     private int currentScore = 0;
-    
+    // score constructor    
     public ShowScore()
     {
         this.currentScore = score.getCurrentScore();
     }
-    
+    // display the score
     public void act()
     {
         GreenfootImage showScore = new GreenfootImage(" Your score: " + score.getCurrentScore() + " ", 30, Color.WHITE, Color.BLACK);

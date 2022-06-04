@@ -1,10 +1,11 @@
 import greenfoot.*;
 
 /**
- * Write a description of class EndGame here.
+ * Ending class
+ * Will be created when the game has over
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author github.com/fiekzz
+ * @version 4 June 2022
  */
 public class EndGame extends World
 {

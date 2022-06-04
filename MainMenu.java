@@ -1,5 +1,13 @@
 import greenfoot.*;
 
+/**
+ * Main menu class
+ * Start off the game with this page
+ * 
+ * @author github.com/fiekzz
+ * @version 4 June 2022
+ */
+
 public class MainMenu extends World
 {   
     // background image

@@ -1,5 +1,6 @@
 #BlueJ class context
 comment0.target=StartButton
+comment0.text=\r\n\ Start\ button\ class\r\n\ Create\ a\ button\ to\ play\ the\ game\r\n\ \r\n\ @author\ github.com/fiekzz\r\n\ @version\ 4\ June\ 2022\r\n
 comment1.params=link\ theme
 comment1.target=StartButton(greenfoot.World,\ greenfoot.GreenfootSound)
 comment2.params=

@@ -1,5 +1,6 @@
 #BlueJ class context
 comment0.target=GameOver
+comment0.text=\r\n\ Game\ over\ class\r\n\ Class\ will\ be\ created\ when\ the\ game\ has\ ended\r\n\ Display\ the\ current\ score\ and\ the\ highest\ score\ when\ the\ game\ has\ over\r\n\ \r\n\ @author\ github.com/fiekzz\r\n\ @version\ 4\ June\ 2022\r\n
 comment1.params=
 comment1.target=GameOver()
 comment2.params=

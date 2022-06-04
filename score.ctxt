@@ -1,5 +1,6 @@
 #BlueJ class context
 comment0.target=score
+comment0.text=\r\n\ Score\ counter\ class\r\n\ Count\ the\ current\ score\ for\ the\ game\r\n\ \r\n\ @author\ github.com/fiekzz\r\n\ @version\ 4\ June\ 2022\r\n
 comment1.params=
 comment1.target=score()
 comment2.params=

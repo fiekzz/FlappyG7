@@ -1,5 +1,6 @@
 #BlueJ class context
 comment0.target=CountEntity
+comment0.text=\r\n\ Counter\ for\ entity\ (distractor)\r\n\ Class\ will\ be\ created\ when\ the\ user\ wants\ to\ start\ the\ game\r\n\ Entity\ counter\ to\ improve\ the\ entity\ spawner\r\n\ \r\n\ @author\ github.com/fiekzz\r\n\ @version\ 4\ June\ 2022\r\n
 comment1.params=
 comment1.target=CountEntity()
 comment2.params=

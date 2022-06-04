@@ -1,5 +1,6 @@
 #BlueJ class context
 comment0.target=CountSpeed
+comment0.text=\r\n\ Speed\ counter\ class\r\n\ Class\ will\ be\ created\ when\ the\ user\ wants\ to\ start\ the\ game\r\n\ Speed\ counter\ to\ manage\ speed\ of\ the\ distractor\r\n\ \r\n\ @author\ github.com/fiekzz\r\n\ @version\ 4\ June\ 2022\r\n
 comment1.params=
 comment1.target=CountSpeed()
 comment2.params=
