@@ -46,7 +46,6 @@ public class entity extends Actor
                 xVelocity += 1;
             }
             
-            System.out.println("Velocity: " + xVelocity + " Speed: " + CountSpeed.getCurrentSpeed());
         }
         
         if(getX() <= 400 && CountEntity.getCount() < 1) {
