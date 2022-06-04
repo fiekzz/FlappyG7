@@ -19,7 +19,7 @@ public class MainMenu extends World
         StartButton btn = new StartButton(new StartGame(), theme);
         addObject(btn, 600, 350);
         // play theme song
-        //theme.play();
+        theme.play();
 
     }
     
