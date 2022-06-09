@@ -46,7 +46,7 @@ public class StartGame extends World
         int size = Greenfoot.getRandomNumber(200) + 100;
         
         // spawn random planet
-        String planet = "./assets/Entity/e" + String.valueOf(Greenfoot.getRandomNumber(29) + 1) + ".png";
+        String planet = "./assets/Entity/e" + String.valueOf(Greenfoot.getRandomNumber(28) + 1) + ".png";
         
         // create entity
         entity distraction = new entity(planet, size);
