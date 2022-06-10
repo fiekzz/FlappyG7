@@ -43,7 +43,11 @@ public class EndGame extends World
     private void postScore()
     {
         try {
-            String res = client.postScore(new FlapperName().getName(), new score().getCurrentScore());
+            score newScore = new score();
+            
+            String res = client.postScore(new FlapperName().getName(), newScore.getCurrentScore());
+            
+            newScore.resetScore();
         } catch (Exception e) {}
     }
     

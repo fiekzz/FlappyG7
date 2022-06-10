@@ -9,4 +9,6 @@ comment3.params=num
 comment3.target=void\ add(int)
 comment4.params=
 comment4.target=int\ getCurrentScore()
-numComments=5
+comment5.params=
+comment5.target=void\ resetScore()
+numComments=6
