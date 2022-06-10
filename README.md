@@ -13,6 +13,8 @@ git clone https://github.com/fiekzz/FlappyG7.git
 
 ## Build with
 * [Greenfoot](https://www.greenfoot.org/)
+* [Canva]
+* [FL Studio]
 
 ## Project specifications
 See `README.txt` for more informations about the project
