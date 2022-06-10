@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=ExitButton
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ ExitButton\ here.\r\n\ \r\n\ @author\ github.com/fiekzz\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=ExitButton()
+comment2.params=
+comment2.target=void\ act()
+numComments=3

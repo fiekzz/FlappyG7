@@ -1,4 +1,4 @@
-import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
+ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
  * Score counter class
@@ -11,11 +11,11 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 public class score extends Actor
 {
     // static score
-    private static int score;
+    private static int score = 0;
     // score constructor
     public score()
     {
-        score = 0;
+        
     }
 
     public void act()

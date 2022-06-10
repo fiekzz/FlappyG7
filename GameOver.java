@@ -18,27 +18,16 @@ import java.io.FileNotFoundException;
 
 public class GameOver extends Actor
 {
-    private static int highestScore = 0;
-    private static int currentScore;
     private GreenfootImage bg = new GreenfootImage("./assets/GameOver1.png");
     // gameover constructor
     public GameOver() {
-        // get the ended current score
-        this.currentScore = score.getCurrentScore();
         // set scale
         bg.scale(500,500);
         setImage(bg);
-        // set the highest score if it has been broken
-        if(currentScore >= highestScore) {
-            this.highestScore = currentScore;
-        }
         
     }
     // score displayer
     public void act()
-    {
-        World myWorld = getWorld();
-        myWorld.showText("Your score:  " + score.getCurrentScore(), 600, 550);
-        myWorld.showText("Highest score: " + highestScore, 600,570);        
+    {     
     }
 }

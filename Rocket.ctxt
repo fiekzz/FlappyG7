@@ -1,8 +1,8 @@
 #BlueJ class context
 comment0.target=Rocket
 comment0.text=\r\n\ Rocket\ actor\ class\r\n\ Spawn\ when\ the\ game\ has\ started\r\n\ \r\n\ @author\ github.com/fiekzz\r\n\ @version\ 4\ June\ 2022\r\n
-comment1.params=screenHeight\ link
-comment1.target=Rocket(int,\ greenfoot.World)
+comment1.params=screenHeight
+comment1.target=Rocket(int)
 comment2.params=
 comment2.target=void\ act()
 comment3.params=

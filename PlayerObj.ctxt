@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=PlayerObj
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ PlayerObj\ here.\r\n\ \r\n\ @author\ github.com/fiekzz\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=player
+comment1.target=int\ compareTo(PlayerObj)
+comment2.params=
+comment2.target=PlayerObj()
+comment3.params=Name\ Score
+comment3.target=PlayerObj(java.lang.String,\ int)
+comment4.params=Name
+comment4.target=void\ setName(java.lang.String)
+comment5.params=Score
+comment5.target=void\ setScore(int)
+comment6.params=
+comment6.target=java.lang.String\ getName()
+comment7.params=
+comment7.target=int\ getScore()
+numComments=8

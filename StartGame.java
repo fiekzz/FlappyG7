@@ -24,7 +24,7 @@ public class StartGame extends World
         setBackground(gameBg);
         
         // spawn rocket
-        addObject(new Rocket(getHeight(), new EndGame()), 200, 400);
+        addObject(new Rocket(getHeight()), 200, 400);
         
         // spawn location of planets
         spawnEntity(600);
@@ -34,9 +34,7 @@ public class StartGame extends World
         addObject(new CountSpeed(), 600,200);
         
         // score displayer and counter
-        addObject(new score(), 600, 200);
-        
-        
+        addObject(new score(), -10, -10);
     }
     
     public void spawnEntity(int initialLocationX)

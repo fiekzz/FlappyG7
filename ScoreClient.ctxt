@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=ScoreClient
+comment1.params=
+comment1.target=java.lang.String\ getScore()
+comment2.params=name\ score
+comment2.target=java.lang.String\ postScore(java.lang.String,\ int)
+comment3.params=
+comment3.target=ScoreClient()
+numComments=4

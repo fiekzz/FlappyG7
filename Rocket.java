@@ -21,15 +21,12 @@ public class Rocket extends Actor
     GreenfootSound jumpSound = new GreenfootSound("./assets/sounds/jump2.wav");
     GreenfootSound crashSound = new GreenfootSound("./assets/sounds/explosion.mp3");
     GreenfootSound theme = new GreenfootSound("./assets/sounds/rocketTheme.mp3");
-    // world linker
-    private World link;
     // get current height
     private double currentHeight;
     
     // rocket constructor
-    public Rocket(int screenHeight, World link) {
+    public Rocket(int screenHeight) {
         this.screenHeight = screenHeight;
-        this.link = link;
         GreenfootImage avatar = new GreenfootImage("./assets/rocket2.png");
         avatar.scale(100,100);
         setImage(avatar);
@@ -63,7 +60,7 @@ public class Rocket extends Actor
             // stop game song
             theme.stop();
             // change the page
-            Greenfoot.setWorld(this.link);
+            Greenfoot.setWorld(new EndGame());
         }
     }
     // collider detector
