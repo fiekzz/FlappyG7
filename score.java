@@ -35,4 +35,9 @@ public class score extends Actor
         return score;
     }
     
+    public void resetScore()
+    {
+        this.score = 0;
+    }
+    
 }
