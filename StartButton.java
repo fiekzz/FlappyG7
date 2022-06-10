@@ -19,7 +19,7 @@ public class StartButton extends Actor
     GreenfootSound btnSound = new GreenfootSound("./assets/sounds/button.wav");
     
     // button constructor
-    public StartButton(World link, GreenfootSound theme)
+    public StartButton(GreenfootSound theme)
     {
         // scale the button size
         btn.scale(150, 100);
@@ -36,7 +36,7 @@ public class StartButton extends Actor
         // change the page when the button has been clicked
         if(Greenfoot.mouseClicked(this))
         {
-            Greenfoot.setWorld(this.link);
+            Greenfoot.setWorld(new StartGame());
             theme.stop();
             Greenfoot.playSound("./assets/sounds/button.mp3");
         }

@@ -24,8 +24,7 @@ public class MainMenu extends World
         // set the background image
         setBackground(menuBg);
         // create start button and link to another page
-        StartButton btn = new StartButton(new StartGame(), theme);
-        addObject(btn, 600, 350);
+        addObject(new StartButton(theme), 600, 350);
         // play theme song
         theme.play();
 
