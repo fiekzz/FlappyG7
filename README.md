@@ -16,5 +16,8 @@ git clone https://github.com/fiekzz/FlappyG7.git
 * [Canva]
 * [FL Studio]
 
+## Download jar file here
+<a href="https://drive.google.com/file/d/1DK38Bk85Ovu4M1tmWDQsmcLV0Wlo-c9i/view?usp=sharing">FlappyG7.jar</a>
+
 ## Project specifications
 See `README.txt` for more informations about the project
