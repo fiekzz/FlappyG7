@@ -16,7 +16,7 @@ import java.io.*;
 public class EndGame extends World
 {
     // background image
-    GreenfootImage bg = new GreenfootImage("./assets/game_background.png");
+    GreenfootImage bg = new GreenfootImage("./assets/new_background.png");
     
     private ArrayList<PlayerObj> Players = new ArrayList<PlayerObj>();
     private ScoreClient client = new ScoreClient();
@@ -34,10 +34,10 @@ public class EndGame extends World
         postScore();
         getScore();
         
-        addObject(new DisplayListScore(),-10,-10);
+        addObject(new DisplayListScore(600, 500),-10,-10);
         
-        addObject(new PlayAgainButton(), 600 - 100, 700);
-        addObject(new ExitButton(), 600 + 100, 700);
+        addObject(new PlayAgainButton(), 600 - 150, 700);
+        addObject(new ExitButton(), 600 + 150, 700);
     }
     
     private void postScore()
@@ -77,6 +77,6 @@ public class EndGame extends World
             
         } catch (Exception e) {}
         
-        addObject(new DisplayListScore(), 0, 0);
+        addObject(new DisplayListScore(600, 500), 0, 0);
     }
 }

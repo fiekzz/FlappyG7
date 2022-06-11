@@ -44,11 +44,11 @@ public class MainMenu extends World
         setBackground(menuBg);
         // create start button and link to another page
         //StartButton btn = new StartButton(new StartGame(), theme);
-        addObject(new StartButton(theme), 600, 350);
+        addObject(new StartButton(theme), 600, 650);
         
         StoreScore();
         
-        addObject(new DisplayListScore(), -10, -10);
+        addObject(new DisplayListScore(600, 350), -10, -10);
         
         name = Greenfoot.ask("Enter your name:");
         

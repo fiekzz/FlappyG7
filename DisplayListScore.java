@@ -10,13 +10,15 @@ public class DisplayListScore extends Actor
 {
     private ListPlayers listPlayers = new ListPlayers();
     private final int gap = 20;
-    private final int xLocation = 600;
-    private final int yLocation = 450;
+    private int xLocation;
+    private int yLocation;
     private int spawnY;
     private boolean valid;
     
-    DisplayListScore()
+    DisplayListScore(int xLocation, int yLocation)
     {
+        this.xLocation = xLocation;
+        this.yLocation = yLocation;
         this.spawnY = yLocation + gap;
         this.valid = true;
     }

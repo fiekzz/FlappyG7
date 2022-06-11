@@ -8,11 +8,11 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class ExitButton extends Actor
 {
-    GreenfootImage btn = new GreenfootImage("./assets/buttons/exit.png");
+    GreenfootImage btn = new GreenfootImage("./assets/buttons/new_exit.png");
     
     public ExitButton()
     {
-        btn.scale(100,100);
+        btn.scale(250,250);
         setImage(btn);
     }
     

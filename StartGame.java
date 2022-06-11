@@ -11,7 +11,7 @@ import greenfoot.*;
 public class StartGame extends World
 {
     // game background
-    private GreenfootImage gameBg = new GreenfootImage("./assets/game_background.png");
+    private GreenfootImage gameBg = new GreenfootImage("./assets/new_background.png");
     // theme song
     private GreenfootSound theme = new GreenfootSound("./assets/sounds/theme.mp3");
     

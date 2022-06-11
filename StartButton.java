@@ -11,7 +11,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 public class StartButton extends Actor
 {
     // get button asset
-    GreenfootImage btn = new GreenfootImage("./assets/startBtn.png");
+    GreenfootImage btn = new GreenfootImage("./assets/buttons/new_start.png");
     // assets
     GreenfootSound theme;
     GreenfootSound btnSound = new GreenfootSound("./assets/sounds/button.wav");
@@ -20,7 +20,7 @@ public class StartButton extends Actor
     public StartButton(GreenfootSound theme)
     {
         // scale the button size
-        btn.scale(150, 100);
+        btn.scale(300, 300);
         setImage(btn);
         // set the theme
         this.theme = theme;

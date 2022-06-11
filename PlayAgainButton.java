@@ -8,11 +8,11 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class PlayAgainButton extends Actor
 {
-    GreenfootImage btn = new GreenfootImage("./assets/buttons/playagain.png");
+    GreenfootImage btn = new GreenfootImage("./assets/buttons/new_playAgain.png");
     
     public PlayAgainButton()
     {
-        btn.scale(100,100);
+        btn.scale(250,250);
         setImage(btn);
     }
     

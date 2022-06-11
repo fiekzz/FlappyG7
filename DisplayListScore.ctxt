@@ -1,8 +1,8 @@
 #BlueJ class context
 comment0.target=DisplayListScore
 comment0.text=\r\n\ Write\ a\ description\ of\ class\ DisplayListScore\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
-comment1.params=
-comment1.target=DisplayListScore()
+comment1.params=xLocation\ yLocation
+comment1.target=DisplayListScore(int,\ int)
 comment2.params=
 comment2.target=void\ act()
 comment3.params=length\ myWorld
